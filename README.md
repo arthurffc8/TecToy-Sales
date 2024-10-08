@@ -2,7 +2,7 @@
 
 - Temos um conjunto de Base de Dados com informações sobre os produtos (`dim_produto.csv`), vendedores (`dim_vendedor.csv`), e sobre as vendas de uma loja de brinquedos (`fato_vendas.csv`).
 - A Base de vendas fornece informações como a data da venda, o produto vendido, o vendedor, a quantidade vendida naquela compra, o calor total e o custo da venda.
-- [TecToy-Sales](<https://app.powerbi.com/view?r=eyJrIjoiNmYzMDYyOGQtNDI5OC00Nzg0LThiYWMtODIwZDI0Yzc2NzhhIiwidCI6ImRmY2E2YzQyLWM0NjktNDg1Ny05NDk5LWViN2YzNjczZjY4NCJ9): Este projeto analisa as vendas de uma loja de brinquedo. 
+- [TecToy-Sales](https://app.powerbi.com/view?r=eyJrIjoiNmYzMDYyOGQtNDI5OC00Nzg0LThiYWMtODIwZDI0Yzc2NzhhIiwidCI6ImRmY2E2YzQyLWM0NjktNDg1Ny05NDk5LWViN2YzNjczZjY4NCJ9): Este projeto analisa as vendas de uma loja de brinquedo. 
 
 
 # TecToy-Sales
@@ -10,7 +10,7 @@
 Clique na imagem para visualizar o dashboard interativo no Power BI:
 
 
-[![ProjetoGame](https://github.com/arthurffc8/MeusProjetos/blob/main/ProjetoFinanceiro/DashFinanceiro.png)](https://app.powerbi.com/view?r=eyJrIjoiNmYzMDYyOGQtNDI5OC00Nzg0LThiYWMtODIwZDI0Yzc2NzhhIiwidCI6ImRmY2E2YzQyLWM0NjktNDg1Ny05NDk5LWViN2YzNjczZjY4NCJ9)
+[![ProjetoGame](https://github.com/arthurffc8/TecToy-Sales/blob/main/TecToy-Sales.png)](https://app.powerbi.com/view?r=eyJrIjoiNmYzMDYyOGQtNDI5OC00Nzg0LThiYWMtODIwZDI0Yzc2NzhhIiwidCI6ImRmY2E2YzQyLWM0NjktNDg1Ny05NDk5LWViN2YzNjczZjY4NCJ9)
 
 
 
