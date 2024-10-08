@@ -16,8 +16,9 @@ Clique na imagem para visualizar o dashboard interativo no Power BI:
 
 ## Estrutura do Projeto
 
-- **`Base Financeiro.xlsx`**; Arquivo com os dados utilizados na análise.
-- **`DashboardFinanceiro.pbix`**; Dashboard com os insights obtidos.
+- **`dim_produto.csv`**; Base de dados com as informações dos produtos da loja.
+- **`dim_vendedor.csv`**; Base de dados com as informações dos vendedores.
+- **`fato_vendas.csv`**; Informaç de cada venda da loja.
 
   
 ## Ferramentas Utilizadas
@@ -29,26 +30,27 @@ Clique na imagem para visualizar o dashboard interativo no Power BI:
   
 ## Principais Métricas calculadas e Insights 
 
-- **Receita Total**: Utilizado a formula Calculate para somar as movimentações apenas do tipo recebimento.
-- **Despesas**: Utilizado a formula Calculate para somar as movimentações apenas do tipo pagamento.
-- **Impostos pagos**: Produto da Receita com 15% de impostos.
-- **Lucro total**: Receita Total - Despesas - Lucro.
-- **Margem de Lucro**: Divisão do Lucro pela receita.
-- **Lucro por mês**: Um gráfico com lucro ou prejuízo em cada mês, terminando com o lucro acumulado no final do ano.
-- **Desvio de Margem**: Informações da margem e o desvio de lucro de cada cidade, utilzando 30% como margem de lucro esperada.
+- **Itens Vendidos**: Total de Itens vendidos.
+- **Faturamento**: Soma do faturamento total da loja.
+- **Custo**: Soma do custo total da loja.
+- **Margem de Lucro**: Lucro obtido pela loja.
+- **Faturamento por mês**: Soma do faturamento obtido em cada mês.
+- **Margem de Lucro por subcategoria**: Ranking com as subcategorias com maior margem de lucro.
+- **Ranking de vendedores**: Ranking com os vendedores com maior faturamento.
 
 
  ## Dicas Adicionais 
 
- - **Filtros**: É possível filtrar todas as informações para cada Banco individualmente, basta clicar na imagem do Banco de interesse.
+ - **Filtros**: É possível filtrar todas as informações por ano, mês ou categoria.
+ - **Variação do Custo**: É possivel verificar quanto o lucro varia com a variação do custo. Para isso basta auemntar ou diminuir o custo e observar os efeitos que geram no nosso lucro. Por exemplo: É possível perceber que ao dimunuir o custo em 50%, obteríamos um lucro 25% maior.
    
 
 
 
 ## Conclusão 
 
-- **São Paulo com melhor desempenho**: São Paulo foi a cidade sede com maior desvio de margem, possuindo 33,6% de margem acima do esperado
-- **NUbank e Safra com desempenhos opostos**: Enquanto o Banco NUbank teve um lucro próximo de zero, o Banco Safra obteve o melhor desempenho, inclusive obtendo lucro em todos os meses, acumulando um total de 77,54% de margem de lucro ao longo do ano.
+- **Maarço**: Março foi o mês com melhor desempenho nas vendas.
+- **Alta margem de lucro**: A loja aintgiu uma margem de lucro de 50,1%.
 
 
 
